@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.tailwindcss.com"></script>
+<title>Navbar</title>
+</head>
+
+<body class="bg-gray-100">
+
+<!-- HEADER -->
+<header class="bg-red-500 text-white">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="flex items-center justify-between h-14">
+
+      <!-- LEFT -->
+      <div class="flex items-center gap-6">
+        <h1 class="text-xl font-bold">Mpuza</h1>
+
+        <nav class="hidden md:flex items-center gap-6 text-sm">
+
+          <!-- Item -->
+          <div class="relative flex items-center gap-1 cursor-pointer">
+            <span class="flex items-center -mr-5"><img src="group.svg" alt=""></span>
+            <span class="mt-6"><b>My Network</b></span>
+            <span class="absolute -top-1 -right-3 bg-blue-500 text-xs px-1.5 rounded-sm w-6 h-4 mr-8">10+</span>
+          </div>
+
+          <div class="relative flex items-center gap-1 cursor-pointer">
+            <span class="flex items-center -mr-5"><img  class="-mt-6 h-8 w-8 -mr-8 items-center ml-5" src="course.svg" alt=""></span>
+            <span class="mt-6"><b>Courses</b></span>
+            <span class="absolute -top-1 -right-3 bg-blue-500 text-xs px-1.5 rounded-sm mr-5 h-4 w-3">2</span>
+          </div>
+
+          <div class="relative flex items-center gap-1 cursor-pointer">
+            <span  class="flex items-center -mr-5"><img  class="-mt-6 h-6 w-6 -mr-8 items-center ml-8" src="notification.svg" alt="">
+            </span>
+            <span class="mt-6"><b>Notifications</b></span>
+            <span class="absolute -top-1 -right-3 bg-blue-500 text-xs px-1.5 rounded-sm w-3 mr-11">7</span>
+          </div>
+
+          <div class="relative flex items-center gap-1 cursor-pointer">
+            <span class="mt-6"><b>Job Alerts</b></span>
+            <span class="absolute -top-1 -right-3 bg-blue-500 text-xs px-1.5 rounded-sm mr-7">9</span>
+          </div>
+
+        </nav>
+      </div>
+
+      <!-- CENTER SEARCH -->
+      <div class="flex-1 max-w-xl mx-6 hidden md:block">
+        <input
+          type="text"
+          placeholder="Search..."
+          class="w-full px-4 py-1.5 rounded-md text-black outline-none"
+        >
+      </div>
+
+      <!-- RIGHT -->
+      <div class="flex items-center gap-4">
+
+        <!-- Profile -->
+        <div class="flex items-center gap-2 cursor-pointer">
+          <img src="https://i.pravatar.cc/30" class="w-7 h-7 rounded-full">
+          <span class="text-sm">Me ▾</span>
+        </div>
+
+        <!-- Button -->
+        <button class="bg-white text-red-600 px-4 py-1.5 rounded-md text-sm font-semibold hover:bg-gray-100">
+          Become Refresher
+        </button>
+
+        <!-- Switch -->
+         <div><img src="" alt=""></div>
+        <button class="text-sm hover:underline">
+          Switch to ▾
+        </button>
+
+      </div>
+
+    </div>
+  </div>
+</header>
+
+</body>
+</html>
